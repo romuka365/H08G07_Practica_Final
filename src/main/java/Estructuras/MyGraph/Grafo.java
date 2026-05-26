@@ -2,13 +2,13 @@ package Estructuras.MyGraph;
 
 import Estructuras.MyGraph.ListaSimple.ListaSimple;
 import Estructuras.MyGraph.ListaSimple.MiIterador;
-import MyGraph.ListaSimple.*;
+import Estructuras.Interfaces.GrafoInterfaz;
 import com.google.gson.Gson;
 
 import java.io.FileReader;
 import java.io.Reader;
 
-public class Grafo {
+public class Grafo implements GrafoInterfaz {
     private int maxId = 0; //esto lo creamos para que cuando eliminemos nodos, no depender de la cantidad de vértices para asignar los ids
     private int numVertices = 0;
     private ListaSimple<Vertice> vertices;

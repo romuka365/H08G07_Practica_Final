@@ -1,8 +1,9 @@
 package Estructuras.MyMatrix;
 
 import Estructuras.MyLinkedList.ListaSE;
+import Estructuras.Interfaces.MatrizInterfaz;
 
-public class MyMatrix<T> {
+public class MyMatrix<T> implements MatrizInterfaz<T> {
     //Atributos:
     private T[] datos;
     private int filas;

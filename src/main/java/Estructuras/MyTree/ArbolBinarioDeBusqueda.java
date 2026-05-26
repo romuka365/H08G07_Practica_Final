@@ -2,8 +2,9 @@ package Estructuras.MyTree;
 
 import Estructuras.MyQueue.Cola;
 import Estructuras.MyLinkedList.ListaSE;
+import Estructuras.Interfaces.ArbolInterfaz;
 
-public class ArbolBinarioDeBusqueda<T extends Comparable<T>> {
+public class ArbolBinarioDeBusqueda<T extends Comparable<T>> implements ArbolInterfaz<T> {
     //Atributos:
     private Nodo<T> raiz;
 

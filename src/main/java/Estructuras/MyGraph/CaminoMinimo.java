@@ -1,7 +1,6 @@
 package Estructuras.MyGraph;
 
 import Estructuras.MyGraph.ListaSimple.MiIterador;
-import MyGraph.ListaSimple.*;
 
 public class CaminoMinimo {
     private Grafo grafo;

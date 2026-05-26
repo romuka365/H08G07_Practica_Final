@@ -2,7 +2,6 @@ package Estructuras.MyGraph;
 
 import Estructuras.MyGraph.ListaSimple.ListaSimple;
 import Estructuras.MyGraph.ListaSimple.MiIterador;
-import MyGraph.ListaSimple.*;
 
 public class Vertice implements Comparable<Vertice> {
    private String nombre;
