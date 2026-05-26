@@ -1,0 +1,7 @@
+{
+  "tipos": ["persona", "lugar"],
+  "tripletas": [
+    {"s": "persona:Albert Einstein", "p": "nace_en", "o": "lugar:Ulm"},
+    {"s": "persona:Marie Curie", "p": "nace_en", "o": "lugar:Varsovia"}
+  ]
+}
