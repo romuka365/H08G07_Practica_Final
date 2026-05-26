@@ -1,6 +1,6 @@
-import MyTree.ArbolBinarioDeBusqueda;
-import MyTree.ArbolBinarioDeBusquedaEnteros;
-import MyLinkedList.ListaSE;
+import Estructuras.MyTree.ArbolBinarioDeBusqueda;
+import Estructuras.MyTree.ArbolBinarioDeBusquedaEnteros;
+import Estructuras.MyLinkedList.ListaSE;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

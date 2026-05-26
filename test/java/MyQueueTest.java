@@ -1,4 +1,4 @@
-import MyQueue.Cola;
+import Estructuras.MyQueue.Cola;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,6 +1,6 @@
-import MyCircularList.ListaCircular;
-import MyCircularList.LCOrdenada;
-import Interfaces.Iterador;
+import Estructuras.MyCircularList.ListaCircular;
+import Estructuras.MyCircularList.LCOrdenada;
+import Estructuras.Interfaces.Iterador;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

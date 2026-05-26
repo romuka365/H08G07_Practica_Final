@@ -1,7 +1,7 @@
-import MyGraph.Grafo;
-import MyGraph.Vertice;
-import MyGraph.Arista;
-import MyGraph.CaminoMinimo;
+import Estructuras.MyGraph.Grafo;
+import Estructuras.MyGraph.Vertice;
+import Estructuras.MyGraph.Arista;
+import Estructuras.MyGraph.CaminoMinimo;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

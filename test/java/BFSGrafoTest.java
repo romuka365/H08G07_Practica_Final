@@ -1,8 +1,8 @@
-import MyGraph.Grafo;
-import MyGraph.Vertice;
-import MyGraph.BFSGrafo;
-import MyLinkedList.ListaSE;
-import Interfaces.Iterador;
+import Estructuras.MyGraph.Grafo;
+import Estructuras.MyGraph.Vertice;
+import Estructuras.MyGraph.BFSGrafo;
+import Estructuras.MyLinkedList.ListaSE;
+import Estructuras.Interfaces.Iterador;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

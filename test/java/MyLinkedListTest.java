@@ -1,6 +1,6 @@
-import MyLinkedList.ListaSE;
-import MyLinkedList.LSEOrdenada;
-import Interfaces.Iterador;
+import Estructuras.MyLinkedList.ListaSE;
+import Estructuras.MyLinkedList.LSEOrdenada;
+import Estructuras.Interfaces.Iterador;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

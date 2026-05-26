@@ -1,6 +1,6 @@
-import MyMatrix.MyMatrix;
-import MyMatrix.Coordenada;
-import MyLinkedList.ListaSE;
+import Estructuras.MyMatrix.MyMatrix;
+import Estructuras.MyMatrix.Coordenada;
+import Estructuras.MyLinkedList.ListaSE;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
