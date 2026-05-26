@@ -1,8 +1,0 @@
-{
-  "tipos": ["persona", "lugar", "premio", "pais"],
-  "tripletas": [
-    {"s": "persona:Albert Einstein", "p": "nace_en", "o": "lugar:Ulm"},
-    {"s": "persona:Albert Einstein", "p": "premio:Nobel_Fisica", "o": "1921"},
-    {"s": "lugar:Ulm", "p": "ubicado_en", "o": "pais:Alemania"}
-  ]
-}
