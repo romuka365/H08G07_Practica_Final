@@ -175,3 +175,19 @@
 | **Cambios pendientes** | Ninguno. Todas las fases completadas. |
 | **Revisión crítica personal** | Todas las fases del plan completadas: 9 estructuras implementadas/revisadas + algoritmos BFS + tests (151 tests, 0 fallos) + documentación de costes. |
 | **Siguiente paso** | — (Proyecto completado). |
+
+## Entrada 13 — 27/05/2026 (ArbolGeneral + NodoGeneral)
+
+| Campo | Detalle |
+|---|---|
+| **Fecha** | 27 de mayo de 2026 |
+| **Objetivo de la sesión** | Crear `ArbolGeneral<T>` y `NodoGeneral<T>` para representar árboles n-arios (ej. árbol de acciones del juego), ya que `ArbolBinarioDeBusqueda` es un BST con solo 2 hijos y orden por `compareTo`, inadecuado para agrupar acciones por categoría. |
+| **Prompt utilizado** | "Revisa mi implementación actual de ArbolBinarioDeBusqueda... propón una solución mínima... no escribir código todavía" → "Pues haz eso, crea las dos clases que me has propuesto... Recuerda utilizar los subagentes de AGENTES.md" |
+| **Agentes usados** | Implementador (crear NodoGeneral + ArbolGeneral), Tester (crear MyTreeTest con 19 tests), Revisor (verificación compilación + tests), Documentador (esta entrada). |
+| **Archivos creados** | `src/main/java/Estructuras/MyTree/NodoGeneral.java`, `src/main/java/Estructuras/MyTree/ArbolGeneral.java`, `test/java/MyTreeTest.java` |
+| **Resultado obtenido** | - `NodoGeneral<T>` con `T dato`, `NodoGeneral<T> padre`, `ListaSE<NodoGeneral<T>> hijos`, implementa `Comparable<NodoGeneral<T>>` para compatibilidad con `ListaSE`. ✅ <br> - `ArbolGeneral<T>` con: constructor con dato raíz, addChild, removeChild, buscar (recursivo preorden), getPreorden, getPostorden, getPorNiveles (BFS con Cola), getAltura, getGrado, getNumNodos, isEmpty. ✅ <br> - Se reusan `ListaSE`, `Cola`, `Iterador` — sin imports de `java.util`. ✅ <br> - No se modifica ningún archivo existente (`ArbolBinarioDeBusqueda`, `Nodo`, `ArbolInterfaz`, tests previos). ✅ <br> - MyTreeTest con 19 tests: constructor, addChild, null padre, removeChild, buscar, 3 recorridos, altura, grado, numNodos, árbol de acciones completo. ✅ <br> - También se corrigieron 3 imports rotos (`MyGraph.ListaSimple.*`) en `Vertice.java`, `BuscadorGrafo.java`, `CaminoMinimo.java` que impedían compilar tras añadir `implements GrafoInterfaz` a `Grafo.java`. ✅ <br> - **Tests globales: 170, 0 fallos.** ✅ |
+| **Decisiones tomadas** | - `NodoGeneral<T>` implementa `Comparable<NodoGeneral<T>>` delegando en `dato.compareTo` para poder almacenarse en `ListaSE<T extends Comparable<T>>`. <br> - Se mantiene `ArbolBinarioDeBusqueda` intacto (BST útil para datos ordenados). <br> - `ArbolGeneral` no requiere interfaz propia (la existente `ArbolInterfaz` tiene métodos BST-específicos). |
+| **Cambios aceptados** | NodoGeneral.java, ArbolGeneral.java, MyTreeTest.java. Corrección imports en Vertice.java, BuscadorGrafo.java, CaminoMinimo.java. |
+| **Cambios pendientes** | Conversión de COSTES.md a PDF (decisión del usuario). |
+| **Revisión crítica personal** | El árbol general resuelve el problema de representar jerarquías con N hijos (ej. Acción → Movimiento → 4 direcciones). Al reusar ListaSE y Cola no se introduce complejidad innecesaria. El BST existente queda intacto con sus 31 tests. El árbol de acciones de ejemplo (Acción → Movimiento/Interacción/Combate con 12 nodos, grado 4, altura 3) funciona correctamente. |
+| **Siguiente paso** | — (Proyecto completado, a la espera de posible PDF). |

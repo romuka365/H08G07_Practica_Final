@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="BFSGrafoTest" time="0.047" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="ArbolGeneralTest" time="0.071" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,16 +59,23 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="getCaminoDestinoInexistente" classname="BFSGrafoTest" time="0.032"/>
-  <testcase name="getCaminoVariosPasos" classname="BFSGrafoTest" time="0.003"/>
-  <testcase name="buscarSalidaEncuentraSalida" classname="BFSGrafoTest" time="0.0"/>
-  <testcase name="getCaminoSimple" classname="BFSGrafoTest" time="0.002"/>
-  <testcase name="getCaminoOrigenInexistente" classname="BFSGrafoTest" time="0.0"/>
-  <testcase name="constructorGrafoNullLanzaExcepcion" classname="BFSGrafoTest" time="0.002"/>
-  <testcase name="getCaminoDestinoInalcanzable" classname="BFSGrafoTest" time="0.001"/>
-  <testcase name="getCaminoOrigenIgualDestino" classname="BFSGrafoTest" time="0.001"/>
-  <testcase name="buscarSalidaSinSalida" classname="BFSGrafoTest" time="0.0"/>
-  <testcase name="buscarSalidaOrigenYaEsSalida" classname="BFSGrafoTest" time="0.001"/>
-  <testcase name="buscarSalidaOrigenInexistente" classname="BFSGrafoTest" time="0.001"/>
-  <testcase name="getCaminoCaminoLargo" classname="BFSGrafoTest" time="0.0"/>
+  <testcase name="buscarInexistente" classname="ArbolGeneralTest" time="0.025"/>
+  <testcase name="getAlturaVariosNiveles" classname="ArbolGeneralTest" time="0.006"/>
+  <testcase name="addChildYGetDato" classname="ArbolGeneralTest" time="0.001"/>
+  <testcase name="addChildNullPadre" classname="ArbolGeneralTest" time="0.001"/>
+  <testcase name="constructorCreaRaiz" classname="ArbolGeneralTest" time="0.001"/>
+  <testcase name="arbolAccionesJuego" classname="ArbolGeneralTest" time="0.001"/>
+  <testcase name="removeChildExistente" classname="ArbolGeneralTest" time="0.001"/>
+  <testcase name="getAlturaSoloRaiz" classname="ArbolGeneralTest" time="0.001"/>
+  <testcase name="removeChildInexistente" classname="ArbolGeneralTest" time="0.001"/>
+  <testcase name="getNumNodos" classname="ArbolGeneralTest" time="0.001"/>
+  <testcase name="buscarRaiz" classname="ArbolGeneralTest" time="0.0"/>
+  <testcase name="buscarExistente" classname="ArbolGeneralTest" time="0.0"/>
+  <testcase name="addChildActualizaPadre" classname="ArbolGeneralTest" time="0.002"/>
+  <testcase name="getGradoConHijos" classname="ArbolGeneralTest" time="0.0"/>
+  <testcase name="getPreorden" classname="ArbolGeneralTest" time="0.0"/>
+  <testcase name="getPorNiveles" classname="ArbolGeneralTest" time="0.009"/>
+  <testcase name="getGradoSinHijos" classname="ArbolGeneralTest" time="0.0"/>
+  <testcase name="getPostorden" classname="ArbolGeneralTest" time="0.0"/>
+  <testcase name="removeChildNullPadre" classname="ArbolGeneralTest" time="0.0"/>
 </testsuite>

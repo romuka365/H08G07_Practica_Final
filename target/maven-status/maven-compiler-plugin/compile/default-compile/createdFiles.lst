@@ -8,6 +8,7 @@ Estructuras\MyMatrix\BFSMatriz.class
 Estructuras\MyQueue\ElementoCola.class
 Estructuras\MyCircularList\IteradorLC.class
 Estructuras\MyTree\ArbolBinarioDeBusqueda.class
+Estructuras\MyTree\ArbolGeneral.class
 Estructuras\MyStack\Pila.class
 Estructuras\Interfaces\ArbolInterfaz.class
 Estructuras\MyGraph\Vertice.class
@@ -25,6 +26,7 @@ Estructuras\MyGraph\TripletaJson.class
 Estructuras\Interfaces\PilaInterfaz.class
 Estructuras\MyGraph\Arista.class
 Estructuras\MyMatrix\MyMatrix.class
+Estructuras\MyTree\NodoGeneral.class
 Estructuras\MyLinkedList\ListaSE.class
 Estructuras\MyLinkedList\LSEOrdenada.class
 Estructuras\MyGraph\BuscadorGrafo.class

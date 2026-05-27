@@ -2,6 +2,7 @@ MyLinkedListTest.class
 MyCircularListTest.class
 MyQueueTest.class
 MyMatrixTest.class
+ArbolGeneralTest.class
 BFSGrafoTest.class
 MyTreeTest.class
 MyGraphTest.class
