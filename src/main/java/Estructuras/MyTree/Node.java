@@ -2,14 +2,14 @@ package Estructuras.MyTree;
 
 import Estructuras.MyLinkedList.ListaSE;
 
-public class NodoGeneral<T extends Comparable<T>> implements Comparable<NodoGeneral<T>> {
+public class Node<T extends Comparable<T>> implements Comparable<Node<T>> {
     //Atributos:
     private T dato;
-    private NodoGeneral<T> padre;
-    private ListaSE<NodoGeneral<T>> hijos;
+    private Node<T> padre;
+    private ListaSE<Node<T>> hijos;
 
     //Constructor:
-    public NodoGeneral(T dato) {
+    public Node(T dato) {
         this.dato = dato;
         this.padre = null;
         this.hijos = new ListaSE<>();
@@ -20,11 +20,11 @@ public class NodoGeneral<T extends Comparable<T>> implements Comparable<NodoGene
         return dato;
     }
 
-    public NodoGeneral<T> getPadre() {
+    public Node<T> getPadre() {
         return padre;
     }
 
-    public ListaSE<NodoGeneral<T>> getHijos() {
+    public ListaSE<Node<T>> getHijos() {
         return hijos;
     }
 
@@ -33,13 +33,13 @@ public class NodoGeneral<T extends Comparable<T>> implements Comparable<NodoGene
         this.dato = dato;
     }
 
-    public void setPadre(NodoGeneral<T> padre) {
+    public void setPadre(Node<T> padre) {
         this.padre = padre;
     }
 
     //Otros métodos:
     @Override
-    public int compareTo(NodoGeneral<T> otro) {
+    public int compareTo(Node<T> otro) {
         return this.dato.compareTo(otro.dato);
     }
 }
