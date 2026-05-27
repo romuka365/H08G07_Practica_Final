@@ -1,4 +1,3 @@
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\ArbolInterfaz.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\ColaInterfaz.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\GrafoInterfaz.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\Iterador.java
@@ -6,6 +5,7 @@ C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Inter
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\ListaInterfaz.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\MatrizInterfaz.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\PilaInterfaz.java
+C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\TreeInterfaz.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyCircularList\ElementoLC.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyCircularList\IteradorLC.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyCircularList\LCOrdenada.java
@@ -34,10 +34,5 @@ C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyQue
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyQueue\ElementoCola.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyStack\ElementoPila.java
 C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyStack\Pila.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\ArbolBinarioDeBusqueda.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\ArbolBinarioDeBusquedaEnteros.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\ArbolGeneral.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\MainArbolBinarioDeBusquedaAleatorio.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\Nodo.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\NodoGeneral.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\MainPruebaBFSGrafo.java
+C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\MyTree.java
+C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\Node.java

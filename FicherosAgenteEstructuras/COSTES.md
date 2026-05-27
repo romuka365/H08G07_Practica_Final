@@ -76,30 +76,28 @@
 
 ---
 
-## 5. MyTree (ArbolBinarioDeBusqueda + ArbolBinarioDeBusquedaEnteros)
+## 5. MyTree — MyTree + Node
 
-**Estructura:** Árbol binario de búsqueda genérico. Cada nodo (`Nodo<T>`) contiene dato, hijo izquierdo e hijo derecho.
+**Estructura:** Árbol n-ario genérico. Cada nodo (`Node<T>`) contiene dato, referencia al padre y una `ListaSE<Node<T>>` para sus hijos. No requiere orden entre hermanos.
 
-**Justificación de elección:** El ABB permite búsqueda, inserción y eliminación eficientes (O(log n) en caso promedio). Se eligió sobre un árbol balanceado (AVL) por simplicidad, asumiendo que los datos de entrada no provocarán degeneración severa.
+**Justificación de elección:** Un árbol binario de búsqueda solo permite 2 hijos por nodo y ordena por `compareTo`, lo cual no sirve para representar jerarquías con múltiples opciones (ej. acciones del juego). `MyTree` permite N hijos por nodo y no impone ordenación, adaptándose a menús, árboles de decisión o cualquier jerarquía sin restricción binaria. `Node` envuelve el dato y proporciona acceso al padre e hijos.
 
 | Operación | Coste temporal | Explicación |
 |---|---|---|
-| `add(T)` | O(h) | Recorrer desde raíz hasta hoja; h = altura |
-| `getRaiz()` | O(1) | Acceso directo |
-| `isEmpty()` | O(1) | Comprobar si raíz es null |
+| `MyTree(T)` | O(1) | Crear nodo raíz |
+| `addChild(padre, hijo)` | O(k) | k = nº hijos del padre (añade al final de la lista) |
+| `removeChild(padre, dato)` | O(k) | Búsqueda lineal + eliminación en lista de hijos |
+| `buscar(dato)` | O(n) | Recorrido preorden recursivo completo |
+| `getPreorden()` | O(n) | Recorrido recursivo preorden |
+| `getPostorden()` | O(n) | Recorrido recursivo postorden |
+| `getPorNiveles()` | O(n) | BFS con Cola propia |
 | `getAltura()` | O(n) | Recorrido recursivo completo |
-| `getGrado()` | O(1) | Consulta sobre el nodo raíz |
-| `ordenCentral()` | O(n) | Recorrido in-order recursivo |
-| `preOrden()` | O(n) | Recorrido pre-order recursivo |
-| `postOrden()` | O(n) | Recorrido post-order recursivo |
-| `getListaDatosNivel(int)` | O(n) | Recorrido por niveles con recursión |
-| `isArbolHomogeneo()` | O(n) | Verificar que todos los nodos tengan 0 o 2 hijos |
-| `isArbolCompleto()` | O(n) | Verificar completitud por niveles |
-| `isArbolCasiCompleto()` | O(n) | Similar a completo, permitiendo última hoja incompleta |
-| `getCamino(T)` | O(h) | Búsqueda desde raíz hasta el dato |
-| `getSubArbol(T)` | O(h) | Búsqueda + copia recursiva |
-| `getSuma()` (enteros) | O(n) | Recorrido completo sumando valores |
-| Espacio total | O(n) | n nodos, cada uno con dos referencias |
+| `getGrado()` | O(n) | Recorrido recursivo completo |
+| `getNumNodos()` | O(n) | Recorrido recursivo completo |
+| `isEmpty()` | O(1) | Comprobar si raíz es null |
+| Espacio total | O(n) | n nodos, cada uno con su lista de hijos |
+
+**Nota:** Como cada padre suele tener pocos hijos (en el árbol de acciones del juego, máximo 4), `addChild` y `removeChild` son O(1) efectivos en la práctica.
 
 ---
 

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: MyTreeTest
 -------------------------------------------------------------------------------
-Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in MyTreeTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in MyTreeTest
