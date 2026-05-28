@@ -363,18 +363,15 @@ public class JsonMapper {
     private static void actualizaEnemigos(EnemySaveDTO[] enemigos,
                                            RoomDataHolder sala) {
         if (enemigos == null || sala.enemigos == null) return;
-        for (EnemySaveDTO e : enemigos) {
+        int i = 0;
+        Iterador<Enemy> it = sala.enemigos.getIterador();
+        while (it.hasNext() && i < enemigos.length) {
+            Enemy target = it.next();
+            EnemySaveDTO e = enemigos[i++];
             if (e == null) continue;
-            Coordenada pos = new Coordenada(e.fila, e.columna);
-            Iterador<Enemy> it = sala.enemigos.getIterador();
-            while (it.hasNext()) {
-                Enemy target = it.next();
-                if (target.getPosicion().equals(pos)) {
-                    target.setCurrentHealth(e.currentHealth);
-                    target.setDead(e.dead);
-                    break;
-                }
-            }
+            target.setCurrentHealth(e.currentHealth);
+            target.setDead(e.dead);
+            target.setPosicion(new Coordenada(e.fila, e.columna));
         }
     }
 
