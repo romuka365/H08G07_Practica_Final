@@ -100,4 +100,81 @@ public class BFSMatriz<T> {
 
         return resultado; //Devuelve la lista de casillas alcanzables.
     }
+
+        public int distanciaMinima(Coordenada origen, Coordenada destino) {
+        if (origen == null || destino == null) return -1;
+        int filas = matriz.getFilas();
+        int cols = matriz.getColumnas();
+        if (!matriz.posicionValida(origen.getFila(), origen.getColumna())) return -1;
+        if (!matriz.posicionValida(destino.getFila(), destino.getColumna())) return -1;
+        if (estaBloqueada(origen.getFila(), origen.getColumna())) return -1;
+        if (estaBloqueada(destino.getFila(), destino.getColumna())) return -1;
+        if (origen.equals(destino)) return 0;
+
+        boolean[][] visitado = new boolean[filas][cols];
+        int[][] dist = new int[filas][cols];
+        Cola<Coordenada> cola = new Cola<>();
+        visitado[origen.getFila()][origen.getColumna()] = true;
+        cola.encolar(origen);
+
+        while (cola.getSize() > 0) {
+            Coordenada actual = cola.desencolar();
+            ListaSE<Coordenada> vecinos = matriz.getVecinos(actual.getFila(), actual.getColumna());
+            Iterador<Coordenada> it = vecinos.getIterador();
+            while (it.hasNext()) {
+                Coordenada v = it.next();
+                int vf = v.getFila(), vc = v.getColumna();
+                if (!visitado[vf][vc] && !bloqueado[vf][vc]) {
+                    visitado[vf][vc] = true;
+                    dist[vf][vc] = dist[actual.getFila()][actual.getColumna()] + 1;
+                    if (v.equals(destino)) return dist[vf][vc];
+                    cola.encolar(v);
+                }
+            }
+        }
+        return -1;
+    }
+
+    public ListaSE<Coordenada> caminoMinimo(Coordenada origen, Coordenada destino) {
+        ListaSE<Coordenada> resultado = new ListaSE<>();
+        if (origen == null || destino == null) return resultado;
+        int filas = matriz.getFilas();
+        int cols = matriz.getColumnas();
+        if (!matriz.posicionValida(origen.getFila(), origen.getColumna())) return resultado;
+        if (!matriz.posicionValida(destino.getFila(), destino.getColumna())) return resultado;
+        if (estaBloqueada(origen.getFila(), origen.getColumna())) return resultado;
+        if (estaBloqueada(destino.getFila(), destino.getColumna())) return resultado;
+        if (origen.equals(destino)) { resultado.add(origen); return resultado; }
+
+        boolean[][] visitado = new boolean[filas][cols];
+        Coordenada[][] padre = new Coordenada[filas][cols];
+        Cola<Coordenada> cola = new Cola<>();
+        visitado[origen.getFila()][origen.getColumna()] = true;
+        cola.encolar(origen);
+        boolean encontrado = false;
+
+        while (cola.getSize() > 0 && !encontrado) {
+            Coordenada actual = cola.desencolar();
+            ListaSE<Coordenada> vecinos = matriz.getVecinos(actual.getFila(), actual.getColumna());
+            Iterador<Coordenada> it = vecinos.getIterador();
+            while (it.hasNext()) {
+                Coordenada v = it.next();
+                int vf = v.getFila(), vc = v.getColumna();
+                if (!visitado[vf][vc] && !bloqueado[vf][vc]) {
+                    visitado[vf][vc] = true;
+                    padre[vf][vc] = actual;
+                    if (v.equals(destino)) { encontrado = true; break; }
+                    cola.encolar(v);
+                }
+            }
+        }
+
+        if (!encontrado) return resultado;
+        Coordenada p = destino;
+        while (p != null) {
+            resultado.addInicio(p);
+            if (p.equals(origen)) break;
+            p = padre[p.getFila()][p.getColumna()];
+        }
+        return resultado;
 }
