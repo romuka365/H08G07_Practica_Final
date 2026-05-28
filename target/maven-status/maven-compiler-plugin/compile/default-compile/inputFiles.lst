@@ -1,38 +1,56 @@
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\ColaInterfaz.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\GrafoInterfaz.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\Iterador.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\ListaCircularInterfaz.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\ListaInterfaz.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\MatrizInterfaz.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\PilaInterfaz.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\Interfaces\TreeInterfaz.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyCircularList\ElementoLC.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyCircularList\IteradorLC.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyCircularList\LCOrdenada.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyCircularList\ListaCircular.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\Arista.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\BFSGrafo.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\BuscadorGrafo.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\CaminoMinimo.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\DatosGrafo.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\Grafo.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\ListaSimple\ElementoS.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\ListaSimple\ifaz_lista.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\ListaSimple\IteradorLS.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\ListaSimple\ListaSimple.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\ListaSimple\MiIterador.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\TripletaJson.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyGraph\Vertice.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyLinkedList\ElementoSE.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyLinkedList\IteradorLSE.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyLinkedList\ListaSE.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyLinkedList\LSEOrdenada.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyMatrix\BFSMatriz.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyMatrix\Coordenada.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyMatrix\MyMatrix.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyQueue\Cola.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyQueue\ElementoCola.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyStack\ElementoPila.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyStack\Pila.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\MyTree.java
-C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\src\main\java\Estructuras\MyTree\Node.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\Interfaces\ColaInterfaz.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\Interfaces\GrafoInterfaz.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\Interfaces\Iterador.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\Interfaces\ListaCircularInterfaz.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\Interfaces\ListaInterfaz.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\Interfaces\MatrizInterfaz.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\Interfaces\PilaInterfaz.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\Interfaces\TreeInterfaz.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyCircularList\ElementoLC.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyCircularList\IteradorLC.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyCircularList\LCOrdenada.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyCircularList\ListaCircular.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\Arista.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\BFSGrafo.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\BuscadorGrafo.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\CaminoMinimo.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\DatosGrafo.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\Grafo.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\ListaSimple\ElementoS.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\ListaSimple\ifaz_lista.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\ListaSimple\IteradorLS.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\ListaSimple\ListaSimple.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\ListaSimple\MiIterador.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\TripletaJson.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyGraph\Vertice.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyLinkedList\ElementoSE.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyLinkedList\IteradorLSE.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyLinkedList\ListaSE.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyLinkedList\LSEOrdenada.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyMatrix\BFSMatriz.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyMatrix\Coordenada.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyMatrix\MyMatrix.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyQueue\Cola.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyQueue\ElementoCola.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyStack\ElementoPila.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyStack\Pila.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyTree\MyTree.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Estructuras\MyTree\Node.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\javafx\MainFX.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\Main.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Boots.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Cell.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Door.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Enemy.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\GameState.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Item.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Key.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Money.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Player.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Potion.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Room.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Shield.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\model\Weapon.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\persistence\GameLoader.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\persistence\GameSaver.java
+C:\Users\Marco AC\IdeaProjects\(Definitivo de Momento) JuegoTrabajoFinal - copia\src\main\java\persistence\JsonMapper.java

@@ -4,7 +4,7 @@
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\target\test-classes;C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\target\classes;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Marco AC\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\Marco AC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\Marco AC\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Marco AC\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\target\test-classes;C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\target\classes;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Marco AC\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\Marco AC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\Marco AC\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Marco AC\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-controls\22.0.2\javafx-controls-22.0.2.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-controls\22.0.2\javafx-controls-22.0.2-win.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-graphics\22.0.2\javafx-graphics-22.0.2.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-graphics\22.0.2\javafx-graphics-22.0.2-win.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-base\22.0.2\javafx-base-22.0.2.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-base\22.0.2\javafx-base-22.0.2-win.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\Marco AC\AppData\Local\Temp\surefire12439851000468295544\surefirebooter-20260527131953848_3.jar C:\Users\Marco AC\AppData\Local\Temp\surefire12439851000468295544 2026-05-27T13-19-53_733-jvmRun1 surefire-20260527131953848_1tmp surefire_0-20260527131953848_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Marco AC\AppData\Local\Temp\surefire7164000433466088496\surefirebooter-20260528105239478_3.jar C:\Users\Marco AC\AppData\Local\Temp\surefire7164000433466088496 2026-05-28T10-52-39_364-jvmRun1 surefire-20260528105239478_1tmp surefire_0-20260528105239478_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\target\test-classes;C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\target\classes;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Marco AC\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\Marco AC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\Marco AC\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Marco AC\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\target\test-classes;C:\Users\Marco AC\IdeaProjects\JuegoTrabajoFinal\target\classes;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Marco AC\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\Marco AC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\Marco AC\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\Marco AC\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Marco AC\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-controls\22.0.2\javafx-controls-22.0.2.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-controls\22.0.2\javafx-controls-22.0.2-win.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-graphics\22.0.2\javafx-graphics-22.0.2.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-graphics\22.0.2\javafx-graphics-22.0.2-win.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-base\22.0.2\javafx-base-22.0.2.jar;C:\Users\Marco AC\.m2\repository\org\openjfx\javafx-base\22.0.2\javafx-base-22.0.2-win.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Marco AC"/>
     <property name="user.language" value="es"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Marco AC\AppData\Local\Temp\surefire12439851000468295544\surefirebooter-20260527131953848_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Marco AC\AppData\Local\Temp\surefire7164000433466088496\surefirebooter-20260528105239478_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -59,13 +59,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="encolarYFrente" classname="MyQueueTest" time="0.0"/>
+  <testcase name="encolarYFrente" classname="MyQueueTest" time="0.001"/>
   <testcase name="isEmptyRecienCreada" classname="MyQueueTest" time="0.0"/>
   <testcase name="fifoOrden" classname="MyQueueTest" time="0.0"/>
   <testcase name="desencolarColaVacia" classname="MyQueueTest" time="0.0"/>
-  <testcase name="getSize" classname="MyQueueTest" time="0.001"/>
+  <testcase name="getSize" classname="MyQueueTest" time="0.0"/>
   <testcase name="clear" classname="MyQueueTest" time="0.0"/>
-  <testcase name="vacioTrasDesencolarTodo" classname="MyQueueTest" time="0.0"/>
+  <testcase name="vacioTrasDesencolarTodo" classname="MyQueueTest" time="0.001"/>
   <testcase name="desencolar" classname="MyQueueTest" time="0.0"/>
   <testcase name="encolarYDesencolarMultiple" classname="MyQueueTest" time="0.0"/>
   <testcase name="frenteColaVacia" classname="MyQueueTest" time="0.001"/>

@@ -1,0 +1,370 @@
+{
+  "version": 1,
+  "Player": {
+    "death": false,
+    "maxHealth": 10,
+    "currentHealth": 4,
+    "def": 3,
+    "atk": 5,
+    "money": 0,
+    "mov": 1,
+    "fila": 4,
+    "columna": 1,
+    "inventory": []
+  },
+  "habitacionActual": 1,
+  "turno": 7,
+  "pasosUsados": 0,
+  "victoria": false,
+  "gameOver": false,
+  "Room": [
+    {
+      "name": "H1",
+      "filas": 5,
+      "columnas": 5,
+      "datos": [
+        [
+          "Empty",
+          "Empty",
+          "Wall",
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Empty",
+          "Wall",
+          "Empty",
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Empty",
+          "Empty",
+          "Empty",
+          "Wall",
+          "Empty"
+        ],
+        [
+          "Wall",
+          "Empty",
+          "Potion",
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Empty",
+          "Player",
+          "Wall",
+          "Empty",
+          "Exit"
+        ]
+      ],
+      "enemigos": [
+        {
+          "dead": false,
+          "currentHealth": 5,
+          "maxHealth": 5,
+          "def": 2,
+          "atk": 3,
+          "fila": 4,
+          "columna": 4
+        },
+        {
+          "dead": true,
+          "currentHealth": -6,
+          "maxHealth": 5,
+          "def": 2,
+          "atk": 3,
+          "fila": 2,
+          "columna": 1
+        }
+      ],
+      "puertaBloqueada": false
+    },
+    {
+      "name": "H2",
+      "filas": 5,
+      "columnas": 5,
+      "datos": [
+        [
+          "Empty",
+          "Wall",
+          "Empty",
+          "Money",
+          "Exit"
+        ],
+        [
+          "Empty",
+          "Wall",
+          "Empty",
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Empty",
+          "Empty",
+          "Enemy",
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Empty",
+          "Wall",
+          "Empty",
+          "Empty",
+          "Enemy"
+        ],
+        [
+          "Shield",
+          "Wall",
+          "Empty",
+          "Enemy",
+          "Key"
+        ]
+      ],
+      "enemigos": [
+        {
+          "dead": false,
+          "currentHealth": 3,
+          "maxHealth": 3,
+          "def": 2,
+          "atk": 2,
+          "fila": 3,
+          "columna": 4
+        },
+        {
+          "dead": false,
+          "currentHealth": 3,
+          "maxHealth": 3,
+          "def": 2,
+          "atk": 2,
+          "fila": 4,
+          "columna": 3
+        },
+        {
+          "dead": false,
+          "currentHealth": 3,
+          "maxHealth": 3,
+          "def": 2,
+          "atk": 2,
+          "fila": 2,
+          "columna": 2
+        }
+      ],
+      "puertaBloqueada": true
+    },
+    {
+      "name": "H3",
+      "filas": 5,
+      "columnas": 5,
+      "datos": [
+        [
+          "Empty",
+          "Boots",
+          "Empty",
+          "Empty",
+          "Money"
+        ],
+        [
+          "Wall",
+          "Wall",
+          "Wall",
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Wall",
+          "Wall",
+          "Wall",
+          "Enemy",
+          "Wall"
+        ],
+        [
+          "Wall",
+          "Wall",
+          "Wall",
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Exit",
+          "Empty",
+          "Empty",
+          "Potion",
+          "Empty"
+        ]
+      ],
+      "enemigos": [
+        {
+          "dead": false,
+          "currentHealth": 8,
+          "maxHealth": 8,
+          "def": 3,
+          "atk": 3,
+          "fila": 2,
+          "columna": 3
+        }
+      ],
+      "puertaBloqueada": false
+    },
+    {
+      "name": "H4",
+      "filas": 5,
+      "columnas": 5,
+      "datos": [
+        [
+          "Empty",
+          "Empty",
+          "Empty",
+          "Empty",
+          "Wall"
+        ],
+        [
+          "Empty",
+          "Weapon",
+          "Empty",
+          "Wall",
+          "Empty"
+        ],
+        [
+          "Empty",
+          "Empty",
+          "Enemy",
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Empty",
+          "Wall",
+          "Empty",
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Wall",
+          "Empty",
+          "Empty",
+          "Empty",
+          "Exit"
+        ]
+      ],
+      "enemigos": [
+        {
+          "dead": false,
+          "currentHealth": 15,
+          "maxHealth": 15,
+          "def": 3,
+          "atk": 4,
+          "fila": 2,
+          "columna": 2
+        }
+      ],
+      "puertaBloqueada": false
+    }
+  ],
+  "historial": {
+    "dato": "Historial",
+    "hijos": [
+      {
+        "dato": "Turno 0",
+        "hijos": [
+          {
+            "dato": "Movimiento a (1, 0)",
+            "hijos": []
+          }
+        ]
+      },
+      {
+        "dato": "Turno 1",
+        "hijos": [
+          {
+            "dato": "Enemigo se movio a (1, 4)",
+            "hijos": []
+          },
+          {
+            "dato": "Enemigo se movio a (3, 1)",
+            "hijos": []
+          },
+          {
+            "dato": "Movimiento a (2, 0)",
+            "hijos": []
+          }
+        ]
+      },
+      {
+        "dato": "Turno 2",
+        "hijos": [
+          {
+            "dato": "Enemigo se movio a (2, 4)",
+            "hijos": []
+          },
+          {
+            "dato": "Enemigo se movio a (2, 1)",
+            "hijos": []
+          },
+          {
+            "dato": "Combate contra enemigo en (2, 1)",
+            "hijos": []
+          }
+        ]
+      },
+      {
+        "dato": "Turno 3",
+        "hijos": [
+          {
+            "dato": "Enemigo te ataco!",
+            "hijos": []
+          },
+          {
+            "dato": "Combate contra enemigo en (2, 1)",
+            "hijos": []
+          },
+          {
+            "dato": "Enemigo derrotado",
+            "hijos": []
+          }
+        ]
+      },
+      {
+        "dato": "Turno 4",
+        "hijos": [
+          {
+            "dato": "Movimiento a (2, 1)",
+            "hijos": []
+          }
+        ]
+      },
+      {
+        "dato": "Turno 5",
+        "hijos": [
+          {
+            "dato": "Movimiento a (3, 1)",
+            "hijos": []
+          }
+        ]
+      },
+      {
+        "dato": "Turno 6",
+        "hijos": [
+          {
+            "dato": "Enemigo se movio a (3, 4)",
+            "hijos": []
+          },
+          {
+            "dato": "Movimiento a (4, 1)",
+            "hijos": []
+          }
+        ]
+      },
+      {
+        "dato": "Turno 7",
+        "hijos": [
+          {
+            "dato": "Enemigo se movio a (4, 4)",
+            "hijos": []
+          }
+        ]
+      }
+    ]
+  }
+}
